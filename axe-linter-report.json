@@ -1,0 +1,36 @@
+{
+  "issues": [
+    {
+      "engineId": "axe-linter-html",
+      "ruleId": "html-has-lang (https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=axe-linter)",
+      "severity": "MAJOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "filePath": "C:\\Users\\DavidMoore\\Documents\\axeLinterExclude\\Root\\secondDir\\headRegLangFail.html",
+        "message": "Ensures every HTML document has a lang attribute",
+        "textRange": {
+          "startLine": 2,
+          "endLine": 2,
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      }
+    },
+    {
+      "engineId": "axe-linter-html",
+      "ruleId": "image-alt (https://dequeuniversity.com/rules/axe/4.8/image-alt?application=axe-linter)",
+      "severity": "MAJOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "filePath": "C:\\Users\\DavidMoore\\Documents\\axeLinterExclude\\Root\\firstDir\\headReqTitleFail.html",
+        "message": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "textRange": {
+          "startLine": 8,
+          "endLine": 8,
+          "startColumn": 2,
+          "endColumn": 7
+        }
+      }
+    }
+  ]
+}
